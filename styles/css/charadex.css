@@ -595,6 +595,28 @@ img {
   border-color: var(--cd-border-color) !important;
 }
 
+/* Base and visited states stay secondary */
+a.btn-outline-secondary,
+a.btn-outline-secondary:visited {
+  color: var(--cd-secondary-color);
+  background-color: transparent;
+  border: 1px solid #6c757d;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+/* Hover and focus states turn text white and fill background */
+a.btn-outline-secondary:hover,
+a.btn-outline-secondary:focus,
+a.btn-outline-secondary:visited:hover {
+  color: #ffffff;
+  background-color: var(--cd-secondary-color);
+  border-color: var(--cd-secondary-color);
+}
+
 /* Fix any border radiuses that were messed from before */
 .rounded {
   border-radius: var(--cd-border-radius) !important
