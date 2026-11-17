@@ -46,7 +46,7 @@ BObody {
   --cd-border-color: rgba(0, 0, 0, 0.125);
   --cd-border-width: 1px;
   --cd-border-style: solid;
-  --cd-border-radius: 1rem;
+  --cd-border-radius: 0.25rem;
 
   /* ============================================================= */
   /* Navbar
@@ -602,27 +602,6 @@ img {
 
 .rounded-0 {
   border-radius: 0 !important;
-}
-
-/* Fix any border removals */
-.border-0 {
-	border: none;
-}
-
-.border-top-0 {
-	border-top: 0 !important;
-}
-
-.border-right-0 {
-	border-right: 0 !important;
-}
-
-.border-bottom-0 {
-	border-bottom: 0 !important;
-}
-
-.border-left-0 {
-	border-left: 0 !important;
 }
 
 
