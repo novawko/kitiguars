@@ -15,7 +15,7 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color: #8FB7D4;
+  --cd-primary-color: #CF9FFF;
   --cd-primary-text-color: #fff;
 
   /* ============================================================= */
@@ -46,7 +46,7 @@ body {
   --cd-border-color: rgba(0, 0, 0, 0.125);
   --cd-border-width: 1px;
   --cd-border-style: solid;
-  --cd-border-radius: 1rem;
+  --cd-border-radius: 0.25rem;
 
   /* ============================================================= */
   /* Navbar
