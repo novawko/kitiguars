@@ -604,8 +604,9 @@ img {
   border-radius: 0 !important;
 }
 
+/* Fix any border removals */
 .border-0 {
-	border: none !important;
+	border: none;
 }
 
 .border-top-0 {
