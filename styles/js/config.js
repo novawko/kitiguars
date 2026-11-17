@@ -32,7 +32,6 @@ charadex.sheet = {
     registry:      "registry",
     registryLog:   "registry log",
     faq:           "faq",
-    staff:         "mods",
   },
 
   options: {
@@ -50,54 +49,6 @@ charadex.sheet = {
 /* Page configuration
 /* ==================================================================== */
 charadex.page = {};
-
-
-/* Staff
-/* --------------------------------------------------------------- */
-charadex.page.staff = {
-
-  sheetPage: charadex.sheet.pages.staff,
-  sitePage: 'inventories',
-  dexSelector: 'charadex',
-  profileProperty: 'username',
-
-  sort: {
-    toggle: false,
-    key: "username",
-    order: "asc",
-    parameters: []
-  },
-
-  pagination: {
-    toggle: false,
-    bottomToggle: false,
-    amount: 12,
-  },
-
-  filters: {
-    toggle: false,
-    parameters: {
-      'TBA': [],
-    }
-  },
-
-  fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
-  },
-
-  search: {
-    toggle: true,
-    filterToggle: false,
-    parameters: ['Username']
-  },
-
-  prevNext: {
-    toggle: false,
-  },
-
-};
 
 
 /* FAQ
