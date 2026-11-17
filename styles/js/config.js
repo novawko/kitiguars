@@ -36,10 +36,9 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Founder Design', 'Guest Design', 'MYO Design', 'Custom Design', 'Bred Design'],
+    designTypes: ['All', 'Founder Design', 'Guest Design', 'MYO Design', 'Custom Design', 'Bred Design', 'Redesign'],
     statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased', 'Raffle', 'Offer', 'Free', 'Not For Trade'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary', 'Mutated'],
-
+    
   }
 
 }
@@ -127,7 +126,6 @@ charadex.page.registry = {
     parameters: {
       'Design Type': charadex.sheet.options.designTypes,
       'Status': charadex.sheet.options.statuses,
-      'Rarity': charadex.sheet.options.rarity,
     }
   },
 
@@ -140,7 +138,7 @@ charadex.page.registry = {
   search: {
     toggle: true,
     filterToggle: true,
-    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist', 'Traits']
+    parameters: ['All', 'ID', 'Design', 'Owner', 'Designer', 'Artist']
   },
 
   prevNext: {
