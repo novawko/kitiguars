@@ -231,12 +231,6 @@ charadex.page.registry = {
 /* --------------------------------------------------------------- */
 charadex.page.index = {
 
-  staff: {
-    ... charadex.page.staff,
-    dexSelector: 'staff',
-    amount: 6,
-  },
-
   designs: {
     ... charadex.page.registry,
     dexSelector: 'design',
