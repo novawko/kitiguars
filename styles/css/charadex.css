@@ -598,7 +598,7 @@ img {
 /* Base and visited states stay secondary */
 a.btn-outline-secondary,
 a.btn-outline-secondary:visited {
-  color: var(--cd-secondary-color);
+  color: #6c757d;
   background-color: transparent;
   border: 1px solid #6c757d;
   text-decoration: none;
@@ -613,8 +613,8 @@ a.btn-outline-secondary:hover,
 a.btn-outline-secondary:focus,
 a.btn-outline-secondary:visited:hover {
   color: #ffffff;
-  background-color: var(--cd-secondary-color);
-  border-color: var(--cd-secondary-color);
+  background-color: #6c757d;
+  border-color: #6c757d;
 }
 
 /* Fix any border radiuses that were messed from before */
