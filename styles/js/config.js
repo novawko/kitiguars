@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Kitiguars",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
+  url: "https://kitiguars.com/",
   description: `An open feral species with forbidden traits created by Novawko from 2025. Do you like dragons and cats? Then, come visit us!`
 }
 
