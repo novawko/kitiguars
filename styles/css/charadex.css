@@ -559,6 +559,10 @@ a.badge.badge-primary:active {
   color: var(--cd-primary-color) !important;
 }
 
+.bg-secondary {
+  color: var(--cd-secondary-color) !important;
+}
+
 .bg-faded {
   background-color: var(--cd-faded-background-color) !important;
 }
