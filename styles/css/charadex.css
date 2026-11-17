@@ -1,4 +1,4 @@
-body {
+BObody {
 
   /* ============================================================= */
   /*
@@ -602,6 +602,10 @@ img {
 
 .rounded-0 {
   border-radius: 0 !important;
+}
+
+.border-0 {
+	border: none !important;
 }
 
 .border-top-0 {
