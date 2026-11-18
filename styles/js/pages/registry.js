@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (charadex.tools.checkArray(listData.profileArray[0].imagegallery)) {
     let gallery = await charadex.initialize.page(
       listData.profileArray[0].imagegallery,
-      charadex.page.masterlist.relatedData['image gallery']
+      charadex.page.registry.relatedData['image gallery']
     );
   }
 
